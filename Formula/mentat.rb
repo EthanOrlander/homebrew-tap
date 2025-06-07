@@ -7,7 +7,7 @@ class Mentat < Formula
         "Authorization: Bearer #{ENV["HOMEBREW_GITHUB_API_TOKEN"]}"
       ]
   version "0.1.3"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "4f9894352779f22b34645f9eb420196d0e591ecd08305506f7e6b9d27ca46761"
 
   def install
     bin.install "mentat"
