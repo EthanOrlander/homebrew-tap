@@ -1,13 +1,9 @@
 class Mentat < Formula
   desc "AI development assistant CLI tool"
   homepage "https://github.com/EthanOrlander/mentat"
-  url "https://api.github.com/repos/EthanOrlander/mentat/releases/assets/261772506",
-      headers: [
-        "Accept: application/octet-stream",
-        "Authorization: Bearer #{ENV["HOMEBREW_GITHUB_API_TOKEN"]}"
-      ]
-  version "0.1.3"
-  sha256 "4f9894352779f22b34645f9eb420196d0e591ecd08305506f7e6b9d27ca46761"
+  url "https://github.com/EthanOrlander/mentat/releases/download/v0.1.0/mentat-v0.1.0-universal-apple-darwin.tar.gz"
+  version "0.1.0"
+  sha256 "UPDATE_WITH_ACTUAL_SHA256"
 
   def install
     bin.install "mentat"
