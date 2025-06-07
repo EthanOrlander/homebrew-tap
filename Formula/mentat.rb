@@ -1,13 +1,13 @@
 class Mentat < Formula
   desc "AI development assistant CLI tool"
   homepage "https://github.com/EthanOrlander/mentat"
-  url "https://api.github.com/repos/EthanOrlander/mentat/releases/assets/261791592",
+  url "https://api.github.com/repos/EthanOrlander/mentat/releases/assets/261793182",
       headers: [
         "Accept: application/octet-stream",
         "Authorization: Bearer #{ENV["HOMEBREW_GITHUB_API_TOKEN"]}"
       ]
-  version "0.1.11"
-  sha256 "ee2c2f992a035849f7a89193e2dc1b403105f311aefde3502b38c3a2fd4886cb"
+  version "0.1.12"
+  sha256 "7df2a4c7c196d1c13ae203e35e5ad9989a47ca53aaa9e3fbc6fc3f768551e054"
 
   def install
     bin.install "mentat"
